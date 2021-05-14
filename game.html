@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Math Quiz Game!
+        </title>
+
+        <link rel="stylesheet" href="game.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+        </script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+
+        </script>
+
+    </head>
+
+    <body style="background-color: lightsalmon;">
+
+        <h4 id="player1_name">
+             Player1 Score =
+        </h4>
+        <span id="player1_score">
+            0
+        </span>
+
+        <br>
+
+        <h4 id="player2_name">
+             Player2 Score =
+        </h4>
+        <span id="player2_score">
+            0
+        </span>
+
+        <br>
+
+        <div class="container">
+            <center>
+                <h1 style="color: white;">
+                    Math Quiz!
+                </h1>
+
+                <h2 id="player_question">
+                    It is Player1 ' s Question Turn!
+                </h2>
+
+                <br>
+
+                <h2 id="player_answer">
+                    It is Player2 ' s Answer Turn!
+                </h2>
+
+                <br>
+
+                <div id="output" class="col-lg-6">
+
+                </div>
+
+                <br>
+                <br>
+
+                <label>
+                    Send Your Number: 
+                </label>
+
+                <br>
+
+                <input type="number" id="number1" class="form-control" placeholder="Number1">
+
+                <br>
+
+                <input type="number" id="number2" class="form-control" placeholder="Number2">
+
+                <br>
+
+                <button onclick="send()" class="btn btn-success" style="width: 30%;">
+                    Send
+                </button>
+
+            </center>
+        </div>
+
+        <script src="game.js">
+
+        </script>
+
+    </body>
+</html>

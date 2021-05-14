@@ -1,0 +1,24 @@
+body
+{
+    background-color: aquamarine;
+}
+
+#number1, #number2
+{
+    width: 60%;
+}
+
+#question_display
+{
+    letter-spacing: 5px;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
